@@ -1,4 +1,3 @@
-<! --
 import { redirect } from "next/navigation"
 import { getAuthSession } from "@/lib/auth"
 import { DashboardHeader } from "@/components/dashboard/dashboard-header"
@@ -21,4 +20,3 @@ export default async function DashboardPage() {
     </DashboardShell>
   )
 }
--->
