@@ -1,4 +1,3 @@
-<! --
 import { NextResponse } from "next/server"
 import bcrypt from "bcryptjs"
 import { z } from "zod"
@@ -69,4 +68,3 @@ export async function POST(req: Request) {
     return NextResponse.json({ message: "Something went wrong" }, { status: 500 });
  }
 }
--->
